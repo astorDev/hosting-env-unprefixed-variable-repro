@@ -24,4 +24,4 @@ export ENVIRONMENT=Repro && dotnet run
 
 ## Note
 
-I was leaning to assume that the variable is ignored since it's overriden by launchSettings. But first, deleting launchSettings doesn't make a difference in the problem (only changed Development to Production). And for other variables unprefixed variables take precedence over variables prefixed with `ASPNETCORE_`
+I was leaning toward assuming that the variable is ignored since it's overridden by `launchSettings`. But first, deleting `launchSettings` doesn't make a difference in the problem (only changing Development to Production). And for other variables unprefixed variables take precedence over variables prefixed with `ASPNETCORE_`
